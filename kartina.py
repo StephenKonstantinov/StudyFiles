@@ -44,7 +44,7 @@ def draw_clouds(display,start_pos_x,start_pos_y,size):
             circle(display, (0, 0, 0), (start_pos_x + 15 + i, start_pos_y), size, 1)
 
 
-FPS = 30
+FPS = 60
 screen = pygame.display.set_mode((800, 400))
 draw_fon(screen)
 draw_boat(screen,330,170)
